@@ -19,5 +19,6 @@ This is a web application that allows users to input their birthdate and calcula
 
 ## Preview
 
-<img width="1460" alt="webpage 1" src="https://github.com/abineshg7/Age-Calculator/assets/153627510/04ccb292-4c17-4f94-8291-4e27ef89a511">
-<img width="1460" alt="webpage 2" src="https://github.com/abineshg7/Age-Calculator/assets/153627510/592e8b79-4ab9-4fd1-a93f-7884d1540b9b">
+<img width="1460" alt="page 1" src="https://github.com/abineshg7/Age-Calculator/assets/153627510/04ccb292-4c17-4f94-8291-4e27ef89a511">
+<img width="1461" alt="page 2" src="https://github.com/abineshg7/Age-Calculator/assets/153627510/37e0720f-27c5-4216-b4ed-4c5fabb9bd87">
+
