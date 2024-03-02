@@ -1,0 +1,134 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1984c7, #90bafc);
+    color: #fff;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.calculator {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10% auto;
+    text-align: center;
+}
+
+.calculator h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calculator h1 span {
+    color: #fff7;
+}
+
+.input-box {
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+.input-box input {
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.input-box button {
+    background: #69e869;
+    border: 0;
+    outline: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+.input-box input::-webkit-calendar-picker-indicator {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 20px;
+}
+
+#result span {
+    color: #69e869;
+    align-items: center;
+}
+
+/* Styles for Digital Clock and Date */
+
+.clock-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.clock, .date {
+    font-size: 3em; /* Adjusted font size */
+    font-family: 'Poppins', sans-serif; /* Applied same font as age calculator */
+    color: #fff;
+    padding: 10px; /* Added padding */
+    margin-bottom: 20px;
+}
+
+.date {
+    font-size: 1.5em; /* Adjusted font size */
+    font-family: 'Poppins', sans-serif; /* Applied same font as age calculator */
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.note {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0; /* Add some padding for better readability */
+    font-style: italic;
+}
